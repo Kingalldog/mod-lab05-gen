@@ -35,7 +35,7 @@ namespace generator
     }
 
 
-    class CharGenerator : Generator
+    public class CharGenerator : Generator
     {
         public CharGenerator(string filename) 
         {
@@ -58,7 +58,7 @@ namespace generator
         }
     }
 
-    class WordsGenerator : Generator
+    public class WordsGenerator : Generator
     {
         public WordsGenerator(string filename)
         {
